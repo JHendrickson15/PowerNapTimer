@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xfl-zM-DuD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Power Nap View Controller-->
+        <scene sceneID="w17-TG-h06">
+            <objects>
+                <viewController id="xfl-zM-DuD" customClass="PowerNapViewController" customModule="powerNapper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hm2-gW-KaM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJx-jn-9NZ">
+                                <rect key="frame" x="141.5" y="313" width="92" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOO-V8-m8i">
+                                <rect key="frame" x="163.5" y="595" width="48" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="toggleTimerButtonTapped:" destination="xfl-zM-DuD" eventType="touchUpInside" id="hE2-bo-2gH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6hV-aM-jrs" firstAttribute="bottom" secondItem="wOO-V8-m8i" secondAttribute="bottom" constant="32" id="5Tf-xq-RmN"/>
+                            <constraint firstItem="QJx-jn-9NZ" firstAttribute="centerX" secondItem="hm2-gW-KaM" secondAttribute="centerX" id="AYU-Ai-zFQ"/>
+                            <constraint firstItem="wOO-V8-m8i" firstAttribute="centerX" secondItem="hm2-gW-KaM" secondAttribute="centerX" id="byL-rQ-v6s"/>
+                            <constraint firstItem="QJx-jn-9NZ" firstAttribute="centerY" secondItem="hm2-gW-KaM" secondAttribute="centerY" id="vS4-aX-MWj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6hV-aM-jrs"/>
+                    </view>
+                    <connections>
+                        <outlet property="timeRemainingLabel" destination="QJx-jn-9NZ" id="766-Yq-jaJ"/>
+                        <outlet property="toggleTimerButton" destination="wOO-V8-m8i" id="iC1-wo-QNO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkA-X1-2gP" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

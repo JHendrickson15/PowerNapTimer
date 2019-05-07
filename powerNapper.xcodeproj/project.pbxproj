@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162F959D22820A82008B9E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F959C22820A82008B9E84 /* AppDelegate.swift */; };
+		162F95A222820A82008B9E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F95A022820A82008B9E84 /* Main.storyboard */; };
+		162F95A422820A83008B9E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162F95A322820A83008B9E84 /* Assets.xcassets */; };
+		162F95A722820A83008B9E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F95A522820A83008B9E84 /* LaunchScreen.storyboard */; };
+		162F95B222820A83008B9E84 /* powerNapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F95B122820A83008B9E84 /* powerNapperTests.swift */; };
+		162F95BD22820A83008B9E84 /* powerNapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F95BC22820A83008B9E84 /* powerNapperUITests.swift */; };
+		16DCCEB522820AE5006EE1E1 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DCCEB422820AE5006EE1E1 /* MyTimer.swift */; };
+		16DCCEBB22820CE5006EE1E1 /* PowerNapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DCCEBA22820CE5006EE1E1 /* PowerNapperViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162F95AE22820A83008B9E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162F959122820A82008B9E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162F959822820A82008B9E84;
+			remoteInfo = powerNapper;
+		};
+		162F95B922820A83008B9E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162F959122820A82008B9E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162F959822820A82008B9E84;
+			remoteInfo = powerNapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162F959922820A82008B9E84 /* powerNapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = powerNapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162F959C22820A82008B9E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		162F95A122820A82008B9E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		162F95A322820A83008B9E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162F95A622820A83008B9E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		162F95A822820A83008B9E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162F95AD22820A83008B9E84 /* powerNapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = powerNapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162F95B122820A83008B9E84 /* powerNapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powerNapperTests.swift; sourceTree = "<group>"; };
+		162F95B322820A83008B9E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162F95B822820A83008B9E84 /* powerNapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = powerNapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162F95BC22820A83008B9E84 /* powerNapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powerNapperUITests.swift; sourceTree = "<group>"; };
+		162F95BE22820A83008B9E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DCCEB422820AE5006EE1E1 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		16DCCEBA22820CE5006EE1E1 /* PowerNapperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerNapperViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162F959622820A82008B9E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162F95AA22820A83008B9E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162F95B522820A83008B9E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162F959022820A82008B9E84 = {
+			isa = PBXGroup;
+			children = (
+				162F959B22820A82008B9E84 /* powerNapper */,
+				162F95B022820A83008B9E84 /* powerNapperTests */,
+				162F95BB22820A83008B9E84 /* powerNapperUITests */,
+				162F959A22820A82008B9E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		162F959A22820A82008B9E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162F959922820A82008B9E84 /* powerNapper.app */,
+				162F95AD22820A83008B9E84 /* powerNapperTests.xctest */,
+				162F95B822820A83008B9E84 /* powerNapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162F959B22820A82008B9E84 /* powerNapper */ = {
+			isa = PBXGroup;
+			children = (
+				16DCCEB322820ACC006EE1E1 /* Resources */,
+				162F95A022820A82008B9E84 /* Main.storyboard */,
+				16DCCEB922820B38006EE1E1 /* View Controllers */,
+				16DCCEB622820AE9006EE1E1 /* Model */,
+			);
+			path = powerNapper;
+			sourceTree = "<group>";
+		};
+		162F95B022820A83008B9E84 /* powerNapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				162F95B122820A83008B9E84 /* powerNapperTests.swift */,
+				162F95B322820A83008B9E84 /* Info.plist */,
+			);
+			path = powerNapperTests;
+			sourceTree = "<group>";
+		};
+		162F95BB22820A83008B9E84 /* powerNapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162F95BC22820A83008B9E84 /* powerNapperUITests.swift */,
+				162F95BE22820A83008B9E84 /* Info.plist */,
+			);
+			path = powerNapperUITests;
+			sourceTree = "<group>";
+		};
+		16DCCEB322820ACC006EE1E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				162F959C22820A82008B9E84 /* AppDelegate.swift */,
+				162F95A322820A83008B9E84 /* Assets.xcassets */,
+				162F95A522820A83008B9E84 /* LaunchScreen.storyboard */,
+				162F95A822820A83008B9E84 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16DCCEB622820AE9006EE1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16DCCEB422820AE5006EE1E1 /* MyTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16DCCEB922820B38006EE1E1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16DCCEBA22820CE5006EE1E1 /* PowerNapperViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162F959822820A82008B9E84 /* powerNapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162F95C122820A83008B9E84 /* Build configuration list for PBXNativeTarget "powerNapper" */;
+			buildPhases = (
+				162F959522820A82008B9E84 /* Sources */,
+				162F959622820A82008B9E84 /* Frameworks */,
+				162F959722820A82008B9E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = powerNapper;
+			productName = powerNapper;
+			productReference = 162F959922820A82008B9E84 /* powerNapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162F95AC22820A83008B9E84 /* powerNapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162F95C422820A83008B9E84 /* Build configuration list for PBXNativeTarget "powerNapperTests" */;
+			buildPhases = (
+				162F95A922820A83008B9E84 /* Sources */,
+				162F95AA22820A83008B9E84 /* Frameworks */,
+				162F95AB22820A83008B9E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162F95AF22820A83008B9E84 /* PBXTargetDependency */,
+			);
+			name = powerNapperTests;
+			productName = powerNapperTests;
+			productReference = 162F95AD22820A83008B9E84 /* powerNapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162F95B722820A83008B9E84 /* powerNapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162F95C722820A83008B9E84 /* Build configuration list for PBXNativeTarget "powerNapperUITests" */;
+			buildPhases = (
+				162F95B422820A83008B9E84 /* Sources */,
+				162F95B522820A83008B9E84 /* Frameworks */,
+				162F95B622820A83008B9E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162F95BA22820A83008B9E84 /* PBXTargetDependency */,
+			);
+			name = powerNapperUITests;
+			productName = powerNapperUITests;
+			productReference = 162F95B822820A83008B9E84 /* powerNapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162F959122820A82008B9E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jordan Hendrickson";
+				TargetAttributes = {
+					162F959822820A82008B9E84 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					162F95AC22820A83008B9E84 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 162F959822820A82008B9E84;
+					};
+					162F95B722820A83008B9E84 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 162F959822820A82008B9E84;
+					};
+				};
+			};
+			buildConfigurationList = 162F959422820A82008B9E84 /* Build configuration list for PBXProject "powerNapper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162F959022820A82008B9E84;
+			productRefGroup = 162F959A22820A82008B9E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162F959822820A82008B9E84 /* powerNapper */,
+				162F95AC22820A83008B9E84 /* powerNapperTests */,
+				162F95B722820A83008B9E84 /* powerNapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162F959722820A82008B9E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F95A722820A83008B9E84 /* LaunchScreen.storyboard in Resources */,
+				162F95A422820A83008B9E84 /* Assets.xcassets in Resources */,
+				162F95A222820A82008B9E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162F95AB22820A83008B9E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162F95B622820A83008B9E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162F959522820A82008B9E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F959D22820A82008B9E84 /* AppDelegate.swift in Sources */,
+				16DCCEB522820AE5006EE1E1 /* MyTimer.swift in Sources */,
+				16DCCEBB22820CE5006EE1E1 /* PowerNapperViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162F95A922820A83008B9E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F95B222820A83008B9E84 /* powerNapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162F95B422820A83008B9E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F95BD22820A83008B9E84 /* powerNapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162F95AF22820A83008B9E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162F959822820A82008B9E84 /* powerNapper */;
+			targetProxy = 162F95AE22820A83008B9E84 /* PBXContainerItemProxy */;
+		};
+		162F95BA22820A83008B9E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162F959822820A82008B9E84 /* powerNapper */;
+			targetProxy = 162F95B922820A83008B9E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		162F95A022820A82008B9E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162F95A122820A82008B9E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		162F95A522820A83008B9E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162F95A622820A83008B9E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162F95BF22820A83008B9E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162F95C022820A83008B9E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162F95C222820A83008B9E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43BBC72U4R;
+				INFOPLIST_FILE = "$(SRCROOT)/powerNapper/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAPP.powerNapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162F95C322820A83008B9E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43BBC72U4R;
+				INFOPLIST_FILE = "$(SRCROOT)/powerNapper/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAPP.powerNapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		162F95C522820A83008B9E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43BBC72U4R;
+				INFOPLIST_FILE = powerNapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAPP.powerNapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/powerNapper.app/powerNapper";
+			};
+			name = Debug;
+		};
+		162F95C622820A83008B9E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43BBC72U4R;
+				INFOPLIST_FILE = powerNapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAPP.powerNapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/powerNapper.app/powerNapper";
+			};
+			name = Release;
+		};
+		162F95C822820A83008B9E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43BBC72U4R;
+				INFOPLIST_FILE = powerNapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAPP.powerNapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = powerNapper;
+			};
+			name = Debug;
+		};
+		162F95C922820A83008B9E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43BBC72U4R;
+				INFOPLIST_FILE = powerNapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyFirstAPP.powerNapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = powerNapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162F959422820A82008B9E84 /* Build configuration list for PBXProject "powerNapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162F95BF22820A83008B9E84 /* Debug */,
+				162F95C022820A83008B9E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162F95C122820A83008B9E84 /* Build configuration list for PBXNativeTarget "powerNapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162F95C222820A83008B9E84 /* Debug */,
+				162F95C322820A83008B9E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162F95C422820A83008B9E84 /* Build configuration list for PBXNativeTarget "powerNapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162F95C522820A83008B9E84 /* Debug */,
+				162F95C622820A83008B9E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162F95C722820A83008B9E84 /* Build configuration list for PBXNativeTarget "powerNapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162F95C822820A83008B9E84 /* Debug */,
+				162F95C922820A83008B9E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162F959122820A82008B9E84 /* Project object */;
+}
